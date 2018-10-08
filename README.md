@@ -1,24 +1,25 @@
 # vsCode-personConfig
 vsCode personConfig
 // Place your settings in this file to overwrite the default settings
+```javascript
 {
     "editor.tabSize": 2,
     "files.associations": {
         "*.vue": "vue"
     },
-    // "eslint.autoFixOnSave": true,
-    // "eslint.options": {
-    //     "extensions": [
-    //         ".js", 
-    //         ".vue"
-    //     ]
-    // },
-    // "eslint.validate": [
-    //     "javascript",
-    //     "javascriptreact",
-    //     "vue",
-    //     "vue-html"
-    // ],
+    "eslint.autoFixOnSave": true,
+    "eslint.options": {
+        "extensions": [
+            ".js", 
+            ".vue"
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue",
+        "vue-html"
+    ],
     "editor.formatOnType": false,
     "editor.formatOnSave": false,
     "search.exclude": {
@@ -46,3 +47,4 @@ vsCode personConfig
     "files.autoSave": "off",
     "vetur.validation.template": false
 }
+```
